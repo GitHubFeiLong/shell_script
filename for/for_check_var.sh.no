@@ -1,0 +1,9 @@
+#!/bin/bash
+for i in `ls /var/`;
+do  
+	if [[ -d "/var/${i}" ]]; 
+	then 
+		echo ${i}是文 件夹; 
+	fi ;
+done
+
